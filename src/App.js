@@ -35,7 +35,6 @@ function App() {
   const getBankName = async () => {
     try {
       if (window.ethereum) {
-
         //read data
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         const signer = provider.getSigner();
